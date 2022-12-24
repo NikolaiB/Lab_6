@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var nick = new Bookkeeper();
+
+            Console.WriteLine("Your position is " + nick.PrintName());
+
+            var victoria = new Director();
+
+            Console.WriteLine("Your position is " + victoria.PrintName());
+
+            var simon = new Employee();
+
+            Console.WriteLine("Your position is " + simon.PrintName());
+
+
+
         }
     }
 }
