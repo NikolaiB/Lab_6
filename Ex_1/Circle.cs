@@ -17,12 +17,12 @@ namespace Ex_1
         // maybe 
         // public double Radius { get; set; }
 
-        public override double Perimetr()
+        public override double GetPerimetr()
         {
             return Math.PI * 2 * radius;
         }
 
-        public override double Squere()
+        public override double GetSquere()
         {
             return (radius * radius) * Math.PI;
         }

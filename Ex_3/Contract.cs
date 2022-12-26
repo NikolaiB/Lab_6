@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ex_3
 {
-    internal class Contract
+    public class Contract : IDocumenteble
     {
+        public uint NumDoc { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime DataDoc { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

@@ -17,12 +17,12 @@ namespace Ex_1
             this.b = b;
         }
 
-        public override double Perimetr()
+        public override double GetPerimetr()
         {
             return 2 * (a + b);
         }
 
-        public  override double Squere()
+        public  override double GetSquere()
         {
             return a * b;
         }

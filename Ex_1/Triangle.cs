@@ -19,12 +19,12 @@ namespace Ex_1
             this.c = c;
         }
 
-        public override double Perimetr()
+        public override double GetPerimetr()
         {
             return a + b + c;
         }
 
-        public override double Squere()
+        public override double GetSquere()
         {
             double semiperimeter = (a + b + c) / 2;
             return Math.Sqrt(semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c));

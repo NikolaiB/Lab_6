@@ -10,7 +10,7 @@ namespace Ex_1
     public abstract class Figure
     {
 
-        public abstract double Perimetr();
-        public abstract double Squere();
+        public abstract double GetPerimetr();
+        public abstract double GetSquere();
      }
 }
